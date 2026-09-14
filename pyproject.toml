@@ -1,0 +1,16 @@
+[project]
+name = "ai-equity-research-platform-core"
+version = "0.1.0"
+description = "Deterministic, source-backed financial-data and FCFF valuation core for BSE research."
+requires-python = ">=3.10,<3.14"
+readme = "README.md"
+dependencies = [
+  "pandas>=2.0,<3.0",
+  "numpy>=1.24,<3.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.coverage.run]
+source = ["src"]
