@@ -1,0 +1,14 @@
+{
+  "operating_tax_rate": 0.25,
+  "wacc": 0.12,
+  "terminal_growth": 0.05,
+  "valuation_date": "2026-06-30",
+  "information_cutoff": "2026-07-23",
+  "forecast_growth": [0.09, 0.08, 0.07, 0.06, 0.05],
+  "forecast_ebit_margin": [0.205, 0.205, 0.205, 0.205, 0.205],
+  "forecast_da_ratio": [0.027, 0.027, 0.027, 0.027, 0.027],
+  "forecast_capex_ratio": [0.016, 0.016, 0.016, 0.016, 0.016],
+  "forecast_nwc_ratio": [0.170, 0.170, 0.170, 0.170, 0.170],
+  "excess_cash": 0.0,
+  "debt": 0.0
+}

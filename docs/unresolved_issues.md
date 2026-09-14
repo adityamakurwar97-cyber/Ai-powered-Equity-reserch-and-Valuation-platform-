@@ -1,0 +1,9 @@
+# Unresolved issues / review queue
+
+- Direct command-line downloads of Infosys report PDFs returned HTTP 403; the official report URLs and page references remain in the register. Normal runs intentionally use saved source-backed CSV data and require no scraping.
+- Balance-sheet and cash-flow reconciliations now pass for FY2024–FY2026; however, the source register remains a selected set of total and cash-flow lines, not a full notes-of-accounts extraction.
+- FY26 operating EBIT is now sourced on a pre-exception basis (₹37,378 crore), excluding the separately retained ₹1,289 crore Labour Codes item. The forecast uses explicit forward margins, so this correction improves historical comparability/auditability rather than silently changing a forward-margin assumption.
+- The valuation denominator is FY26 period-end paid-up shares net of treasury shares. A fully diluted period-end employee-award calculation is not established; option dilution remains a warning.
+- The current 30 June 2026 market record derives a price from Infosys' same-date official market capitalization and gross share count. It is useful context but is **not a direct BSE close** and its gross-share basis differs from the net-share valuation denominator. Market capitalization and upside/downside remain intentionally unavailable until a direct BSE close is imported on a date with a matching dated share observation.
+- WACC, terminal growth, forecast growth/margins and operating-tax rate are educational assumptions, not market-observed recommendations. No market price or peer valuation is included.
+- The deterministic core is handoff-ready, but an API, database, frontend, RAG pipeline, LLM integration and fine-tuning are intentionally not implemented. See `docs/developer_handoff.md` for required future controls.

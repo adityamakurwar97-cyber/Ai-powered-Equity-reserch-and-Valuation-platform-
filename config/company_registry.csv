@@ -1,0 +1,2 @@
+company_id,company,bse_scrip,isin,sector,source_records_path,share_observations_path,assumptions_path
+infosys,Infosys Limited,500209,INE009A01021,Information Technology,data/raw/infosys_source_records.csv,data/shares/infosys_share_observations.csv,config/assumptions.json

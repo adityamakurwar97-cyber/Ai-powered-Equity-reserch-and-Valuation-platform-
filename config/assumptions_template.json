@@ -1,0 +1,17 @@
+{
+  "assumption_status": "review_required",
+  "operating_tax_rate": 0.25,
+  "wacc": 0.12,
+  "terminal_growth": 0.05,
+  "valuation_date": "YYYY-MM-DD",
+  "information_cutoff": "YYYY-MM-DD",
+  "forecast_growth": [0.05, 0.05, 0.05, 0.05, 0.05],
+  "forecast_ebit_margin": [0.20, 0.20, 0.20, 0.20, 0.20],
+  "forecast_da_ratio": [0.03, 0.03, 0.03, 0.03, 0.03],
+  "forecast_capex_ratio": [0.02, 0.02, 0.02, 0.02, 0.02],
+  "forecast_nwc_ratio": [0.17, 0.17, 0.17, 0.17, 0.17],
+  "excess_cash": 0.0,
+  "debt": 0.0,
+  "lease_liabilities": 0.0,
+  "non_controlling_interest": 0.0
+}
